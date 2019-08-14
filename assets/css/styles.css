@@ -31,8 +31,14 @@
 /*    content: "\ea14";*/
 /*}*/
 
-.pattern-ceremonias{
-    background:url(
-    data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGUlEQVQoU2NkIBIwEqmOYVQh3pAiNnj+AwALaAEK//wciwAAAABJRU5ErkJggg==
-    ) repeat;
+.pattern-ceremonias {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGUlEQVQoU2NkIBIwEqmOYVQh3pAiNnj+AwALaAEK//wciwAAAABJRU5ErkJggg==
+) repeat;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    color: aliceblue;
+    overflow-x: hidden;
+    padding: 10vmin 14vmin;
 }

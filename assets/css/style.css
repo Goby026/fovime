@@ -19,7 +19,6 @@ body{
     color: #eee;
 }
 
-#contenidoPreguntasFrecuentes {
-    /* background-color: blue; */
-    background:url("../images/img/fondoinst.jpg");
+.h1{
+	color:red;
 }

@@ -16,8 +16,6 @@ class EventoController{
     private $sede;
     private $pais;
     private $deporte;
-    private $notificacion;
-    private $uNotificacion;
 
     public function __CONSTRUCT(){
         $this->model = new Evento();
@@ -115,9 +113,7 @@ class EventoController{
         $this->resultado->Registrar($newResultado);
 
         //registrar notificacion
-
         $fecha = date('Y-m-d', time());
-
         $noti = new Notificacion();
         $noti->fecha = $fecha;
         $noti->idEvento = $lastId->id;
@@ -125,18 +121,14 @@ class EventoController{
         $noti->titulo = "Fin de encuentro";
         $noti->descripcion = $_REQUEST['pais1']." vs ".$_REQUEST['pais2']." finalizó";
         $noti->idtiponotificacion = 2; //tipo: notificacion despues del evento
-
         $lastNoti = $this->notificacion->Registrar($noti);
-
         //registrar usuario-notificaciones
-
         $usuarioNoti = new UsuarioNotificacion();
-
         $usuarioNoti->idnotificacion = $lastNoti->id;
         $usuarioNoti->idusuario = $_SESSION["id_usuario"];
         $usuarioNoti->estado = 1;
-
         $this->uNotificacion->Registrar($usuarioNoti);
+
 
         header('Location: ?c=evento&a=adminResultados');
 

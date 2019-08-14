@@ -1,0 +1,31 @@
+.titviconsH2{
+	font-family: 'Russo One', sans-serif;
+	text-decoration-line: underline;
+	text-align: justify center;
+	color: #02784B;
+}
+.titviconsH3{
+	text-align: justify;
+	font-weight: bolder;
+	color: #02784B;
+}
+.titviconsH4{
+	text-align: justify;
+	font-weight: bolder;
+	color: #0F1D5A;
+}
+.titviconsH5{
+	text-align: justify;
+	font-weight: bolder;
+	color: #0F1D5A;
+}
+.titviconsH6{
+	text-align: justify;
+	font-weight: bolder;
+	text-decoration-line: underline;
+	color: #02784B;
+}
+.textvicons{
+	font-family: 'Open Sans', sans-serif;    
+	font-weight: bolder;
+}

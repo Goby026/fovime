@@ -1,0 +1,17 @@
+
+	.suborgani{
+		font-family: 'Russo One', sans-serif;  
+		text-decoration: underline;
+		color: #02784B;
+	}
+	.org{
+
+		  	display: block; 
+  			margin: 0 auto;
+  			max-width: 100%;
+ 			width: 80%;
+ 			border:1px solid #02784B;
+			}
+
+
+	}

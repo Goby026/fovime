@@ -1,0 +1,21 @@
+
+.inmobiliarias{color:#0F1D5A;
+	font-family: 'Russo One', sans-serif;
+	text-align: center;}
+	.inmobiliarias :hover{
+		transition: 2s;
+		transform: scale(1.1);
+		box-shadow: 6px 6px 3px #02784B;
+	}
+	.titferia18{
+		font-family: 'Russo One', sans-serif;
+		color: #02784B;
+		text-align: center;
+		text-decoration-line: underline;
+	}
+	.subtitferia18{
+		font-family: 'Russo One', sans-serif;
+		color: #02784B;
+		text-align: center;
+		text-decoration-line: underline;
+	}

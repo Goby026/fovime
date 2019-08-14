@@ -1,0 +1,14 @@
+body{
+	background: black;
+}
+.h1{
+	color: red;
+}
+.accordion .card-header :after{
+	font-family: 'FontAwesome';
+	content:"/f067";
+	float: right;
+}
+.accordion .card-header .collapsed:after{
+content:"/f068";
+}

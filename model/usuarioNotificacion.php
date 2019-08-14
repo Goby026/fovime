@@ -26,7 +26,7 @@ class UsuarioNotificacion
 		{
 			$result = array();
 
-			$stm = $this->pdo->prepare("CALL SP_GETNOTIFICACIONUSUARIO('".$idusuario."')");
+            $stm = $this->pdo->prepare("CALL SP_GETNOTIFICACIONUSUARIO('".$idusuario."')");
 			$stm->execute();
 
 			return $stm->fetchAll(PDO::FETCH_OBJ);

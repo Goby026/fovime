@@ -1,126 +1,58 @@
-<!--            <div class="row">-->
-<!--                <div class="col-xs-12">-->
-<!--                    <hr />-->
-<!--                    <footer class="text-center well">-->
-<!--                        <p>Ejemplo desarrollado por <a href="http://anexsoft.com">Anexsoft</a></p>-->
-<!--                    </footer>                -->
-<!--                </div>    -->
-<!--            </div>-->
-<!--        </div>-->
-<!---->
-<!--        <script src="assets/js/bootstrap.min.js"></script>-->
-<!--        <script src="assets/js/jquery-ui/jquery-ui.min.js"></script>-->
-<!--        <script src="assets/js/ini.js"></script>-->
-<!--        <script src="assets/js/jquery.anexsoft-validator.js"></script>-->
-<!--    </body>-->
-<!--</html>-->
-
+<html>
+<body>
 <hr>
-<?php if(isset($_SESSION['id_usuario']))
-{?> 
-<!-- Footer -->
-<footer class="page-footer font-small blue pt-4">
 
-    <!-- Footer Links -->
-    <div class="container-fluid text-center text-md-left bg-light">
-
-        <!-- Grid row -->
-        <div class="row">
-
-            <!-- Grid column -->
-            <div class="col-md-6 mt-md-0 mt-3">
-
-                <!-- Content -->
-                <h5 class="text-uppercase">Mesa de partes:</h5>
-                <p>Dirección: Av. San Luis cuadra 11 S/N Puerta N° 6 Villa Deportiva Nacional (VIDENA) cruce con la Av. Del Aire, Distrito de San Luis Horario: Lunes a viernes de 8:30 hrs. a 16:30 hrs.</p>
-
-            </div>
-            <!-- Grid column -->
-
-            <hr class="clearfix w-100 d-md-none pb-3">
-
-            <!-- Grid column -->
-            <div class="col-md-3 mb-md-0 mb-3">
-
-                <!-- Links -->
-                <!--                <h5 class="text-uppercase">Contenidos</h5>-->
-                <!---->
-                <!--                <ul class="list-unstyled">-->
-                <!--                    <li>-->
-                <!--                        <a href="./Home.php">Inicio</a>-->
-                <!--                    </li>-->
-                <!--                    <li>-->
-                <!--                        <a href="./losjuegos.php">Los juegos</a>-->
-                <!--                    </li>-->
-                <!--                    <li>-->
-                <!--                        <a href="./ComiteOrganizador.php">Comite Organizador</a>-->
-                <!--                    </li>-->
-                <!--                    <li>-->
-                <!--                        <a href="./ceremonia.php">Ceremonia</a>-->
-                <!--                    </li>-->
-                <!--                    <li>-->
-                <!--                        <a href="./Auspiciadores.php">Auspiciadores</a>-->
-                <!--                    </li>-->
-                <!--                </ul>-->
-
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-3 mb-md-0 mb-3">
-
-                <!-- Links -->
-                <h5 class="text-uppercase">Contenidos</h5>
-
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="./Home.php">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="./losjuegos.php">Los juegos</a>
-                    </li>
-                    <li>
-                        <a href="./ComiteOrganizador.php">Comite Organizador</a>
-                    </li>
-                    <li>
-                        <a href="./ceremonia.php">Ceremonia</a>
-                    </li>
-                    <li>
-                        <a href="./Auspiciadores.php">Auspiciadores</a>
-                    </li>
-                </ul>
-
-            </div>
-            <!-- Grid column -->
-
+<footer>
+<div class="container-fluid p-0">
+    <div class="row text-left">
+        <div class="col-md-5">
+        <h4 class="text-light">Nosotros</h4>
+        <p class="text-muted">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. A perspiciatis voluptatum sed maiores eligendi facere enim nesciunt consectetur dignissimos porro?
+        </p>
+        <p class="pt-4 text-muted">
+            © 2019 Copyright: <a href="./Home.php"> ORES-FOVIME</a> <br>
+        </p>
         </div>
-        <!-- Grid row -->
-
+        <div class="col-md-5">
+        <h4 class="text-light">Contactos</h4>
+        <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, sit?</p>
+        <ul class = "list-unstyled">
+            <li><p class="text-info">
+                    Prestamos: 014660638 opcion-1 opcion-2 <br>
+                    <small>prestamos@fovime.com</small>
+                </p>
+            </li>
+            <li><p class="text-info">
+                    Patrimonio: 014660638 opcion-3 <br>
+                    <small>patrimonio@fovime.com</small>
+                </p>
+            </li>
+            <li><p class="text-info">
+                    Post - venta: 014660638 opcion-4 <br>
+                    <small>patrimonio@fovime.com</small>
+                </p>
+            </li>
+            <li><p class="text-info">
+                    Asesoría Legal: 014660638 opcion-5 <br>
+                    <small>legal@fovime.com</small>
+                </p>
+            </li>
+        </ul>
+        </div>
+        <div class="col-md-2">
+        <h4>Siguenos </h4>
+        <ul class = "list-unstyled text-muted">
+            <li><i class="fab fa-facebook-f"></i> facebook</li>
+            <li><i class="fab fa-instagram"></i> instagram</li>
+            <li><i class="fab fa-twitter"></i> twitter</li>
+            <li><i class="fab fa-youtube"></i> youtube</li>
+            <li><i class="fab fa-linkedin-in"></i> linkedin</li>
+        </ul>
+        </div>
     </div>
-    <!-- Footer Links -->
-
-    <div class="footer-copyright text-center py-3 bg-warning">
-        <h5>Siguenos <i class="fab fa-facebook-f"></i> <i class="fab fa-instagram"></i> <i class="fab fa-twitter"></i> <i class="fab fa-youtube"></i> <i class="fab fa-linkedin-in"></i> <i class="fab fa-flickr"></i></h5>
-    </div>
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-0 bg-warning">© 2019 Copyright:
-        <a href="./Home.php"> Juegos Panamericanos</a> <br>
-        <img src="./assets/images/ondas.png" class="img-fluid" alt="Responsive image">
-    </div>
-    <!-- Copyright -->
-
+</div>
 </footer>
-<!-- Footer -->
-<?php 
-}
- ?>
-
-<!--<script type='text/javascript' src='./jquery/jquery-migrate-1.2.1.min.js'></script>-->
-<!--<script type='text/javascript' src='./jquery/jquery.plugins.js'></script>-->
-<!--<script type='text/javascript' src='./jquery/mediaelement-and-player.min.js'></script>-->
-<script type='text/javascript' src='./assets/js/contador.js'></script>
-<script src='https://www.google.com/recaptcha/api.js'></script>
 
 </body>
 </html>

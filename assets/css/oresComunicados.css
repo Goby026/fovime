@@ -1,0 +1,15 @@
+.titC{
+	font-family: 'Russo One', sans-serif;
+	text-decoration: underline;
+	color: #02784B;
+	text-align: center;
+}
+.cima{
+	box-shadow: 2px 2px 30px #666; 
+	border: #02784B 1px solid;
+}
+.cima:hover{
+	transition: 1s;
+	transform: scale(1.2);
+	box-shadow: 6px 6px 3px #666;
+}
