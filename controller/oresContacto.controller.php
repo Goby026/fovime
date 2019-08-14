@@ -32,15 +32,19 @@ class OresContactoController
         switch ($tipoCorreo){
             case "prestamos";
                 $correo = "prestamos@fovime.com";
+                $password = "--------------";
                 break;
             case "patrimonio";
                 $correo = "patrimonio@fovime.com";
+                $password = "--------------";
                 break;
             case "postVenta";
                 $correo = "post-venta@fovime.com";
+                $password = "--------------";
                 break;
             case "legal";
                 $correo = "legal@fovime.com";
+                $password = "--------------";
                 break;
         }
 
@@ -64,8 +68,8 @@ class OresContactoController
         $mail->isSMTP();                                      // Set mailer to use SMTP
         $mail->Host = 'smtp.gmail.com';                       // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
-        $mail->Username = $correo;                 // SMTP username
-        $mail->Password = '************';                           // SMTP password
+        $mail->Username = $correo;                           // SMTP username
+        $mail->Password = $password;                           // SMTP password
         $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
         $mail->Port = 587;                                    // TCP port to connect to
 
@@ -74,7 +78,7 @@ class OresContactoController
 
         $mail->isHTML(true);                                  // Set email format to HTML
 
-        $mail->Subject = 'Prueba de mail';
+        $mail->Subject = $tipoCorreo;
         $mail->Body    = $contenido;
 
         if(!$mail->send()) {
