@@ -2,148 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bb73a52-4825-472d-bdc1-53f93a974213" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/app.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/documentos/5d116ad50ef4d5.17123336.txt" beforeDir="false" afterPath="$PROJECT_DIR$/assets/documentos/5d116ad50ef4d5.17123336.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/documentos/5d116c2b17c198.98283124.txt" beforeDir="false" afterPath="$PROJECT_DIR$/assets/documentos/5d116c2b17c198.98283124.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/4203.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/5a0543434931c.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/JP.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Milco2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/admin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/administrador.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/atleta.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/banner_es_desk.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/ceremonias-lima-2019.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/competencia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/deportistas-participantes.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/icon_inicio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/incas.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/lima2019.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/milco.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/ondas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/panamericanos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/para-panamericanos.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/principal4.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sponsor.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sponsor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sport2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sports.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/usuario.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bdtecnoserv.sql" beforeDir="false" afterPath="$PROJECT_DIR$/bdtecnoserv.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/alumno.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/alumno.controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/auspiciadores.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/auspiciadores.controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/ceremonias.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/ceremonias.controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/comiteorganizador.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/comiteorganizador.controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/decreto.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/decreto.controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/deportista.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/deportista.controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/disciplina.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/disciplina.controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/documentos.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/documentos.controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/evento.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/evento.controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/fixture.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/fixture.controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/foto.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/foto.controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/index.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/index.controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/institucional.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/institucional.controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/listapaises.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/listapaises.controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/login.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/login.controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/losjuegos.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/losjuegos.controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/medallero.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/medallero.controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/organigrama.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/organigrama.controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/participantes.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/participantes.controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/preguntasFrecuentes.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/preguntasFrecuentes.controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/reglamento.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/reglamento.controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/usuario.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/usuario.controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/video.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/video.controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/alumno.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/alumno.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/auspiciadores.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/auspiciadores.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/ceremonia.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/ceremonia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/comite.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/comite.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/decreto.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/decreto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/deporte.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/deporte.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/deportista.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/deportista.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/detalleeventos.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/detalleeventos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/disciplina.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/disciplina.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/documentos.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/documentos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/evento.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/evento.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/fixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/fixture.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/foto.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/foto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/institucional.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/institucional.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/medallero.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/medallero.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/notificacion.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/notificacion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/organigrama/oficinasorganigrama.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/organigrama/oficinasorganigrama.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/organigrama/unidadorganizacional.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/organigrama/unidadorganizacional.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/pais.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/pais.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/participantes.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/participantes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/preguntasFrecuentes/pregFrecAreas.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/preguntasFrecuentes/pregFrecAreas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/preguntasFrecuentes/preguntasfrecuentes.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/preguntasFrecuentes/preguntasfrecuentes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/preguntasFrecuentes/respuestapreguntafrec.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/preguntasFrecuentes/respuestapreguntafrec.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/reglamento/norma.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/reglamento/norma.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/reglamento/seccionreglamento.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/reglamento/seccionreglamento.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/reglamento/subnorma.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/reglamento/subnorma.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/sede.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/sede.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/tipoceremonia.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/tipoceremonia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/usuarioNotificacion.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/usuarioNotificacion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/usuarios.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/usuarios.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/video.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/video.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_tecnoserv.mwb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_tecnoserv.mwb.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelo.mwb.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/Auspiciadores/auspiciadores.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/Ceremonias/ceremonias.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/Ceremonias/clausura.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/Ceremonias/inauguracion.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/ComiteOrganizador/comite.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/Fixture/fixture.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/Institucional/institucional.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/ListaPaises/listapaises.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/LosJuegos/losjuegos.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/MarcoLegal/marcoLegal.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/Medallero/medallero.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/Notificaciones/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/alumno/alumno-editar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/alumno/alumno.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/deportistas/crear.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/deportistas/deportistas.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/deportistas/editar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/disciplina/disciplina.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/documentos/crear.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/documentos/documentos.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/documentos/editar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/eventos/crear.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/eventos/editar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/eventos/eventos.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/eventos/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/foto/crear.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/foto/editar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/foto/foto.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/index/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/login/_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/_login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/login/acceso.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/acceso.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/login/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/organigrama/organigrama.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/participantes/crear.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/participantes/editar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/participantes/participantes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/preguntasFrecuentes/preguntasFrecuentes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/registro/activar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/registro/registro.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/reglamento/reglamento.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/video/crear.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/video/editar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/video/video.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/oresContacto.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/oresContacto.controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/oresContacto/oresContacto.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/oresContacto/oresContacto.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,21 +13,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/oresContacto/oresContacto.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="81" column="64" selection-start-line="81" selection-start-column="64" selection-end-line="81" selection-end-column="64" />
+            <state relative-caret-position="310">
+              <caret line="275" column="64" lean-forward="true" selection-start-line="275" selection-start-column="34" selection-end-line="275" selection-end-column="64" />
+              <folding>
+                <element signature="n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#main#0;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#main#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#main#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#main#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#main#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#main#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/oresContacto.controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="32" />
+            <state relative-caret-position="905">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
@@ -182,14 +52,19 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>myModal4</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/controller/oresContacto.controller.php" />
         <option value="$PROJECT_DIR$/view/oresContacto/oresContacto.php" />
+        <option value="$PROJECT_DIR$/controller/oresContacto.controller.php" />
       </list>
     </option>
   </component>
@@ -211,6 +86,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,7 +98,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,24 +129,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565802514560</updated>
-      <workItem from="1565802516023" duration="2879000" />
+      <workItem from="1565802516023" duration="3948000" />
+      <workItem from="1565819436215" duration="2130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2879000" />
+    <option name="totallyTimeSpent" value="6078000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25305623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -279,10 +150,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32922733" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +172,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/view/oresEnviar/oresEnviarLegal.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -303,17 +186,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/oresContacto.controller.php">
+    <entry file="file://$PROJECT_DIR$/view/oresContacto/oresContacto.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="32" />
+        <state relative-caret-position="310">
+          <caret line="275" column="64" lean-forward="true" selection-start-line="275" selection-start-column="34" selection-end-line="275" selection-end-column="64" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#main#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/oresContacto/oresContacto.php">
+    <entry file="file://$PROJECT_DIR$/controller/oresContacto.controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="81" column="64" selection-start-line="81" selection-start-column="64" selection-end-line="81" selection-end-column="64" />
+        <state relative-caret-position="905">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>

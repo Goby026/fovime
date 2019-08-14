@@ -27,6 +27,23 @@ class OresContactoController
     public function enviarCorreo()
     {
 
+        $tipoCorreo = $_POST['tipoCorreo'];
+
+        switch ($tipoCorreo){
+            case "prestamos";
+                $correo = "prestamos@fovime.com";
+                break;
+            case "patrimonio";
+                $correo = "patrimonio@fovime.com";
+                break;
+            case "postVenta";
+                $correo = "post-venta@fovime.com";
+                break;
+            case "legal";
+                $correo = "legal@fovime.com";
+                break;
+        }
+
         //data
         $cip = $_POST["cip"];
         $apellidos = $_POST["apellidos"];
@@ -47,13 +64,13 @@ class OresContactoController
         $mail->isSMTP();                                      // Set mailer to use SMTP
         $mail->Host = 'smtp.gmail.com';                       // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
-        $mail->Username = '45068903@continental.edu.pe';                 // SMTP username
-        $mail->Password = 'U2319189';                           // SMTP password
+        $mail->Username = $correo;                 // SMTP username
+        $mail->Password = '************';                           // SMTP password
         $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
         $mail->Port = 587;                                    // TCP port to connect to
 
-        $mail->setFrom('45068903@continental.edu.pe', 'Mailer');
-        $mail->addAddress('45068903@continental.edu.pe', 'Joe User');     // Add a recipient
+        $mail->setFrom($correo, 'Fovime');
+        $mail->addAddress($email, $nombres." ".$apellidos);     // Add a recipient
 
         $mail->isHTML(true);                                  // Set email format to HTML
 
@@ -65,6 +82,7 @@ class OresContactoController
             echo 'Mailer Error: ' . $mail->ErrorInfo;
         } else {
             echo 'Message has been sent';
+            header("Location: ?c=oresContacto&a=index");
         }
 
 

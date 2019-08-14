@@ -12,7 +12,7 @@
                         <p class="card-text text-center text-light">Opcion 1 - Opcion 2</p>
                         <p class="card-text text-center text-primary">prestamos@fovime.com</p>
                         <button type="button" class="btn btn-outline-primary btn-block" data-toggle="modal"
-                                data-target="#exampleModal" data-whatever="prestamos@fovime.com"><i
+                                data-target="#prestamos" data-whatever="prestamos@fovime.com"><i
                                     class="far fa-envelope" style="font-size: 2em"></i></button>
                     </div>
                 </div>
@@ -28,7 +28,7 @@
                         <p class="card-text text-center text-light">Opcion 3</p>
                         <p class="card-text text-center text-primary">patrimonio@fovime.com</p>
                         <button type="button" class="btn btn-outline-primary btn-block" data-toggle="modal"
-                                data-target="#exampleModal" data-whatever="patrimonio@fovime.com"><i
+                                data-target="#patrimonio" data-whatever="patrimonio@fovime.com"><i
                                     class="far fa-envelope" style="font-size: 2em"></i></button>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                         <p class="card-text text-center text-light">Opcion 4</p>
                         <p class="card-text text-center text-primary">post-venta@fovime.com</p>
                         <button type="button" class="btn btn-outline-primary btn-block" data-toggle="modal"
-                                data-target="#exampleModal" data-whatever="post-venta@fovime.com"><i
+                                data-target="#postVenta" data-whatever="post-venta@fovime.com"><i
                                     class="far fa-envelope" style="font-size: 2em"></i></button>
                     </div>
                 </div>
@@ -68,8 +68,202 @@
             </div>
         </div>
 
-        <!-- The Modal -->
-        <div class="modal" id="myModal4">
+        <!-- Modal Prestamos -->
+        <div class="modal fade" id="prestamos">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Mensaje para: prestamos@fovime.com</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <form action="?c=oresContacto&a=enviarCorreo" method="POST">
+
+                        <input type="hidden" name="tipoCorreo" value="prestamos">
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+
+
+                            <div class="form-group">
+                                <label for="recipient-name1" class="col-form-label">CIP:</label>
+                                <input type="number" required class="form-control" id="recipient-name1" name="cip">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name2" class="col-form-label">Apellidos:</label>
+                                <input type="text" class="form-control" id="recipient-name2" name="apellidos">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name3" class="col-form-label">Nombres:</label>
+                                <input type="text" class="form-control" id="recipient-name3" name="nombres">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name4" class="col-form-label">Grado:</label>
+                                <input type="text" class="form-control" id="recipient-name4" name="grado">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name5" class="col-form-label">Tiempo de Servicio:</label>
+                                <input type="text" class="form-control" id="recipient-name5" name="tiemposerv">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name6" class="col-form-label">Telefono:</label>
+                                <input type="number" size="9" class="form-control" id="recipient-name6" name="telefono">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name7" class="col-form-label">E-mail:</label>
+                                <input type="text" class="form-control" id="recipient-name7" name="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="col-form-label">Consulta:</label>
+                                <textarea class="form-control" id="message-text" name="consulta"></textarea>
+                            </div>
+
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger">Cancelar</button>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Patrimonio -->
+        <div class="modal fade" id="patrimonio">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Mensaje para: patrimonio@fovime.com</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <form action="?c=oresContacto&a=enviarCorreo" method="POST">
+                        <input type="hidden" name="tipoCorreo" value="patrimonio">
+                        <!-- Modal body -->
+                        <div class="modal-body">
+
+
+                            <div class="form-group">
+                                <label for="recipient-name1" class="col-form-label">CIP:</label>
+                                <input type="number" required class="form-control" id="recipient-name1" name="cip">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name2" class="col-form-label">Apellidos:</label>
+                                <input type="text" class="form-control" id="recipient-name2" name="apellidos">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name3" class="col-form-label">Nombres:</label>
+                                <input type="text" class="form-control" id="recipient-name3" name="nombres">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name4" class="col-form-label">Grado:</label>
+                                <input type="text" class="form-control" id="recipient-name4" name="grado">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name5" class="col-form-label">Tiempo de Servicio:</label>
+                                <input type="text" class="form-control" id="recipient-name5" name="tiemposerv">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name6" class="col-form-label">Telefono:</label>
+                                <input type="number" size="9" class="form-control" id="recipient-name6" name="telefono">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name7" class="col-form-label">E-mail:</label>
+                                <input type="text" class="form-control" id="recipient-name7" name="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="col-form-label">Consulta:</label>
+                                <textarea class="form-control" id="message-text" name="consulta"></textarea>
+                            </div>
+
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger">Cancelar</button>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Post venta -->
+        <div class="modal fade" id="postVenta">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Mensaje para: post-venta@fovime.com</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <form action="?c=oresContacto&a=enviarCorreo" method="POST">
+                        <input type="hidden" name="tipoCorreo" value="postVenta">
+                        <!-- Modal body -->
+                        <div class="modal-body">
+
+
+                            <div class="form-group">
+                                <label for="recipient-name1" class="col-form-label">CIP:</label>
+                                <input type="number" required class="form-control" id="recipient-name1" name="cip">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name2" class="col-form-label">Apellidos:</label>
+                                <input type="text" class="form-control" id="recipient-name2" name="apellidos">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name3" class="col-form-label">Nombres:</label>
+                                <input type="text" class="form-control" id="recipient-name3" name="nombres">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name4" class="col-form-label">Grado:</label>
+                                <input type="text" class="form-control" id="recipient-name4" name="grado">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name5" class="col-form-label">Tiempo de Servicio:</label>
+                                <input type="text" class="form-control" id="recipient-name5" name="tiemposerv">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name6" class="col-form-label">Telefono:</label>
+                                <input type="number" size="9" class="form-control" id="recipient-name6" name="telefono">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name7" class="col-form-label">E-mail:</label>
+                                <input type="text" class="form-control" id="recipient-name7" name="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="col-form-label">Consulta:</label>
+                                <textarea class="form-control" id="message-text" name="consulta"></textarea>
+                            </div>
+
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger">Cancelar</button>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Asesoria legal -->
+        <div class="modal fade" id="myModal4">
             <div class="modal-dialog">
                 <div class="modal-content">
 
@@ -80,7 +274,7 @@
                     </div>
 
                     <form action="?c=oresContacto&a=enviarCorreo" method="POST">
-
+                        <input type="hidden" name="tipoCorreo" value="legal">
                         <!-- Modal body -->
                         <div class="modal-body">
 
