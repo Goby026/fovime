@@ -29,24 +29,28 @@ class OresContactoController
 
         $tipoCorreo = $_POST['tipoCorreo'];
 
-        switch ($tipoCorreo){
-            case "prestamos";
-                $correo = "prestamos@fovime.com";
-                $password = "--------------";
-                break;
-            case "patrimonio";
-                $correo = "patrimonio@fovime.com";
-                $password = "--------------";
-                break;
-            case "postVenta";
-                $correo = "post-venta@fovime.com";
-                $password = "--------------";
-                break;
-            case "legal";
-                $correo = "legal@fovime.com";
-                $password = "--------------";
-                break;
-        }
+        //pruebas
+        $correo = "45068903@continental.edu.pe";
+        $password = "U2319189";
+
+//        switch ($tipoCorreo){
+//            case "prestamos";
+//                $correo = "prestamos@fovime.com";
+//                $password = "--------------";
+//                break;
+//            case "patrimonio";
+//                $correo = "patrimonio@fovime.com";
+//                $password = "--------------";
+//                break;
+//            case "postVenta";
+//                $correo = "post-venta@fovime.com";
+//                $password = "--------------";
+//                break;
+//            case "legal";
+//                $correo = "legal@fovime.com";
+//                $password = "--------------";
+//                break;
+//        }
 
         //data
         $cip = $_POST["cip"];
@@ -73,8 +77,8 @@ class OresContactoController
         $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
         $mail->Port = 587;                                    // TCP port to connect to
 
-        $mail->setFrom($correo, 'Fovime');
-        $mail->addAddress($email, $nombres." ".$apellidos);     // Add a recipient
+        $mail->setFrom($correo, $tipoCorreo);
+        $mail->addAddress($correo, $nombres." ".$apellidos);     // Add a recipient
 
         $mail->isHTML(true);                                  // Set email format to HTML
 
