@@ -42,7 +42,6 @@ footer {
     padding: 10vmin 14vmin;
 }
 
-.navbar{
-    height: 600px !important;
-    color: #6610f2 !important;
+.navbar ul .dropdown:hover>.dropdown-menu{
+    display: block;
 }
