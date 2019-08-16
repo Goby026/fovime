@@ -110,7 +110,7 @@
 if (!isset($_SESSION['username'])){
 ?>
 <!-- INICIA LA BARRA DE MENU -->
-<div class="">
+<div class="container-fluid p-0">
     <div class="row">
         <div class="col-md-12">
 

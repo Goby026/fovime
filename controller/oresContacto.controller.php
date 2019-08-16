@@ -30,8 +30,8 @@ class OresContactoController
         $tipoCorreo = $_POST['tipoCorreo'];
 
         //pruebas
-        $correo = "45068903@continental.edu.pe";
-        $password = "U2319189";
+        $correo = "Prestamos@fovime.com";
+        $password = "Finanzas2019";
 
 //        switch ($tipoCorreo){
 //            case "prestamos";

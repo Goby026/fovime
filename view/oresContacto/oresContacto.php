@@ -1,6 +1,6 @@
 <main class="mt-6">
     <!-- ASI SE DEBE TRABAJAR -->
-    <div class="container" id="contenedorCon">
+    <div class="container p-5" id="contenedorCon">
         <div class="row">
             <div class="col-md-6 col-sm-6 col-lg-3">
                 <div class="card box ">
